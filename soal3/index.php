@@ -50,7 +50,7 @@ function rupiah($angka)
                         <div class="card-body">
                             <h1 class="text-center pb-2"><?php echo $value->Name; ?></h1>
                             <p><b>Ukuran : </b><?php echo $value->ukuran; ?></p>
-                            <p><b>Ukuran : </b><?php echo implode(", ", $value->warna) ?></p>
+                            <p><b>Warna : </b><?php echo implode(", ", $value->warna) ?></p>
                             <p><b>Email : </b><?php echo $value->Contact->email; ?></p>
                             <p><b>No.Telp : </b><?php echo $value->Contact->Phone; ?></p>
                             <p><b>Alamat : </b><?php echo $value->Contact->Address; ?></p>
