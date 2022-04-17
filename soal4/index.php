@@ -21,7 +21,7 @@ if (!empty($_POST['submit']) && isset($_FILES['attachment'])) {
     $error     = $_FILES['attachment']['error'];
 
     if ($type != "application/pdf") {
-        die("hanya menerima file bentuk PDF");
+        die("Maaf! format file yang dapat di terima hanya PDF");
     }
     if ($size > 1000000) {
         die('ukuran file lebih dari 1MB');
